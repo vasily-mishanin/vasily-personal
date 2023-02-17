@@ -1,0 +1,5 @@
+footer{
+  background-color: lightseagreen;
+  flex-shrink: 0;
+  height: 300px;
+}
