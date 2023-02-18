@@ -1,7 +1,7 @@
 import "./header.css";
 
-const header = document.createElement('header');
-header.className = 'header';
+const header = document.createElement("header");
+header.className = "header pattern-header";
 header.innerHTML = `<section class="header-inner">
 <div class='header__image hidden'>
 <img src="./vasily-mishanin.jpg" alt="Vasily\'s photo">
@@ -12,4 +12,4 @@ header.innerHTML = `<section class="header-inner">
 </div>
 </section>`;
 
-document.querySelector('#app')!.prepend(header);
+document.querySelector("#app")!.prepend(header);

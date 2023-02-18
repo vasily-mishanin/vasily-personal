@@ -8,7 +8,7 @@ export function renderSkills() {
   const skills = document.createElement("section");
   skills.classList.add("skills");
 
-  skills.innerHTML = `<div class='skills-box hidden'>
+  skills.innerHTML = `<div class='skills-box'>
     <p class='skills__title'>SKILLS</p>
     </div>`;
 
@@ -29,7 +29,7 @@ function renderSkillItem(image: string, text: string) {
 function renderSkillsList(skills: Skill[]) {
   let skillsHTML = skills
     .map((skill) => {
-      return `<li class='skills__item'>${renderSkillItem(
+      return `<li class='skills__item hidden-skill'>${renderSkillItem(
         skill.image,
         skill.text
       )}</li>`;
@@ -51,7 +51,7 @@ function renderLanguageItem(image: string, text: string, level: string) {
 function renderLanguageList(languages: Language[]) {
   let skillsHTML = languages
     .map((language) => {
-      return `<li class='skills__item'>${renderLanguageItem(
+      return `<li class='skills__item hidden-skill'>${renderLanguageItem(
         language.image,
         language.text,
         language.level

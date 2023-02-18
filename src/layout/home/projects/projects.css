@@ -1,0 +1,143 @@
+.projects {
+  position: relative;
+  background-color: var(--color-main-light);
+  color: var(--color-main-dark);
+  padding: 130px 30px 80px;
+}
+
+.projects-box {
+  position: absolute;
+  top: -75px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-family: var(--font-Markazi);
+  font-weight: bold;
+
+  background-color: var(--color-accent-yellow);
+  background: linear-gradient(
+    var(--color-main-light),
+    var(--color-accent-yellow)
+  );
+  border: 1px solid var(--color-main-black);
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 0.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--color-main-black);
+  /* transform: rotate(45deg); */
+  animation: boxAnimation 1s infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes boxAnimation {
+  from {
+    transform: translateY(-5%) rotate(45deg);
+  }
+  to {
+    transform: translateY(0) rotate(45deg);
+  }
+}
+
+.projects__title {
+  animation: color-animation 4s linear infinite;
+  transition: color 0.5s ease;
+  font-family: var(--font-Roboto);
+  transform: rotate(-45deg);
+  font-size: 1.25rem;
+}
+
+.projects__list {
+  display: flex;
+  flex-flow: row wrap;
+  place-items: center;
+  place-content: center;
+  gap: 40px;
+  margin-bottom: 3rem;
+}
+
+.projects__item {
+}
+
+.project__card {
+  width: 300px;
+  height: 380px;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  box-shadow: 0 0 5px 0px var(--color-main-dark);
+  transition: all 300ms ease;
+}
+
+.project__card:hover {
+  box-shadow: 0 0 15px 0px var(--color-main-dark);
+}
+
+.project__card-image {
+  width: 100%;
+  height: 230px;
+}
+
+.project__card-image a {
+}
+
+.project__card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.project__card-text {
+  padding: 0 1rem 1rem;
+  font-family: var(--font-Roboto);
+}
+
+.project__name {
+  color: var(--color-main-black);
+  font-weight: bold;
+  text-decoration: underline wavy var(--color-accent-yellow);
+  margin-bottom: 1rem;
+}
+
+.project__description {
+  font-weight: lighter;
+}
+
+.github {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.github__image {
+  width: 50px;
+}
+
+.github__image img {
+  width: 100%;
+}
+
+.github__text {
+  font-size: 1.5rem;
+}
+
+.github__text:hover {
+  color: var(--color-main-black);
+}
+
+@media (max-width: 500px) {
+  .github__text {
+    font-size: 1rem;
+  }
+}
