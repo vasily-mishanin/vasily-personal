@@ -11,7 +11,7 @@ export function renderProjects() {
 
   projects.innerHTML += renderProgectList(projectsData);
   const github = {
-    image: "./icon-github.png",
+    image: "./images/icon-github.png",
     text: "Other projects on my GitHub",
     link: "https://github.com/vasily-mishanin",
   };
