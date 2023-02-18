@@ -1,7 +1,9 @@
+import { renderContacts } from "./contacts/contacts";
 import "./footer.css";
 
-const footer = document.createElement('footer');
+const footer = document.createElement("footer");
+footer.classList.add("footer");
 
-footer.innerHTML = '<h1>FOOTER!</h1>';
+document.querySelector("#app")!.append(footer);
 
-document.querySelector('#app')!.append(footer);
+renderContacts();

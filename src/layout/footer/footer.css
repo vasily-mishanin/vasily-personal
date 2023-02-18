@@ -1,5 +1,5 @@
-footer{
-  background-color: lightseagreen;
+.footer {
+  position: relative;
   flex-shrink: 0;
-  height: 300px;
+  background-color: var(--color-accent-yellow);
 }
