@@ -6,7 +6,6 @@ import "./layout/home/home";
 // scroll animation
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
     } else {
@@ -21,7 +20,6 @@ hiddenElements.forEach((el) => observer.observe(el));
 //SKILLS
 const observerSkills = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show-skill");
     } else {
@@ -36,7 +34,6 @@ hiddenSkillElements.forEach((el) => observerSkills.observe(el));
 //CERTIFICATES
 const observerCertificate = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show-certificate");
     } else {

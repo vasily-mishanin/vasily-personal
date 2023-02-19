@@ -16,12 +16,12 @@
 
 .certifications-box {
   position: absolute;
-  top: -50px;
+  top: -40px;
   left: 0;
   right: 0;
   margin: 0 auto;
   width: 200px;
-  height: 100px;
+  height: 80px;
 
   text-align: center;
   font-family: var(--font-Markazi);

@@ -1,5 +1,10 @@
 import { myContacts } from "../../../model/constants";
 import { Contact } from "../../../model/mytypes";
+import resume_en from "../../../../src/resume/resume-mishanin-eng.pdf";
+import resume_ru from "../../../../src/resume/resume-mishanin-ru.pdf";
+
+const downloadIcon = "./images/downloading.png";
+
 import "./contacts.css";
 
 export function renderContacts() {
@@ -8,6 +13,16 @@ export function renderContacts() {
 
   contacts.innerHTML = `<div class='contacts-box'><p class='contacts__title'>CONTACT ME</p></div>`;
   contacts.innerHTML += renderContactList(myContacts);
+  contacts.innerHTML += `<div class='contacts__downloads'>
+  <a class='contacts__downloads-link' href=${resume_en} download>
+   <img src=${downloadIcon} alt="download">
+   <span> download resume (EN)</span>
+  </a>
+  <a class='contacts__downloads-link' href=${resume_ru} download>
+  <img src=${downloadIcon} alt="download">
+  <span> download resume (RU)</span>
+ </a>
+  </div>`;
 
   document.querySelector(".footer")?.prepend(contacts);
 }
