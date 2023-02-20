@@ -3,3 +3,10 @@
   flex-shrink: 0;
   background-color: var(--color-accent-yellow);
 }
+
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
