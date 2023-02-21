@@ -6,7 +6,7 @@ export function renderProjects() {
   const projects = document.createElement("section");
   projects.classList.add("projects");
   projects.innerHTML = `<div class='projects-box'>
-  <p class='projects__title'>SOME OF MY PROJECTS</p>
+  <p class='projects__title'  data-dictionary='projects'>SOME OF MY PROJECTS</p>
   </div>`;
 
   projects.innerHTML += renderProgectList(projectsData);
@@ -16,7 +16,7 @@ export function renderProjects() {
     link: "https://github.com/vasily-mishanin",
   };
   projects.innerHTML += `<a class='github' href=${github.link} alt=${github.text} target="_blank" rel=”noreferrer”>
-                        <div class='github__text'><p>${github.text}</p></div>
+                        <div class='github__text'><p data-dictionary='other_projects'>${github.text}</p></div>
                         <div class='github__image'>
                            <img src='${github.image}' alt='${github.text}'/>
                          </div>
@@ -26,6 +26,7 @@ export function renderProjects() {
 }
 
 function renderProgectCard(
+  id: string,
   image: string,
   text: string,
   link: string,
@@ -38,7 +39,7 @@ function renderProgectCard(
 
    <div class='project__card-text'>
    <p class='project__name'>${text}</p>
-   <p class='project__description'>${description}</p>
+   <p class='project__description' data-dictionary='description__${id}'>${description}</p>
    </div>
     </a>`;
 }
@@ -47,6 +48,7 @@ function renderProgectList(projects: Project[]) {
   let projectsHTML = projects
     .map((project) => {
       return `<li class='project__item'>${renderProgectCard(
+        project.id,
         project.image,
         project.text,
         project.link,

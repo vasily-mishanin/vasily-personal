@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -38,7 +39,6 @@
 
 .header-title {
   color: var(--color-main-light);
-  text-decoration: solid red;
 }
 
 .header-subtitle {
@@ -54,4 +54,36 @@
     transparent 6px
   );
   background-size: 4px 4px;
+}
+
+/* SELECT LANGUAGE */
+.select__language {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 50px;
+  height: 30px;
+  padding: 0.2rem;
+  font-size: 1rem;
+  background-color: inherit;
+  color: var(--color-accent-yellow);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.select__language option {
+  width: 50px;
+  padding: 0.25rem;
+}
+
+@media screen and (max-width: 413px) {
+  .header-title {
+    color: var(--color-main-light);
+    font-size: 1.2rem;
+  }
+
+  .header-subtitle {
+    color: var(--color-accent-yellow);
+    font-size: 0.8rem;
+  }
 }

@@ -11,16 +11,16 @@ export function renderContacts() {
   const contacts = document.createElement("section");
   contacts.classList.add("contacts");
 
-  contacts.innerHTML = `<div class='contacts-box'><p class='contacts__title'>CONTACT ME</p></div>`;
+  contacts.innerHTML = `<div class='contacts-box'><p class='contacts__title' data-dictionary='contactme'>CONTACT ME</p></div>`;
   contacts.innerHTML += renderContactList(myContacts);
   contacts.innerHTML += `<div class='contacts__downloads'>
   <a class='contacts__downloads-link' href=${resume_en} download>
    <img src=${downloadIcon} alt="download">
-   <span> download resume (EN)</span>
+   <span data-dictionary='download'> download resume </span> <span> (.pdf EN)</span>
   </a>
   <a class='contacts__downloads-link' href=${resume_ru} download>
   <img src=${downloadIcon} alt="download">
-  <span> download resume (RU)</span>
+  <span data-dictionary='download'> download resume </span> <span>(.pdf RU)</span>
  </a>
   </div>`;
 

@@ -1,4 +1,11 @@
-import { Certification, Contact, Language, Project, Skill } from "./mytypes";
+import {
+  Certification,
+  Contact,
+  Dictionary,
+  Language,
+  Project,
+  Skill,
+} from "./mytypes";
 
 export const skills__core: Skill[] = [
   {
@@ -116,32 +123,34 @@ export const certifications: Certification[] = [
 
 export const projects: Project[] = [
   {
-    id: "rs-lang",
+    id: "rs_lang",
     image: "./images/rs-lang.png",
     text: "RS-Lang",
     description:
-      "Web app for learning English. Created in collaboration inside small team.",
+      "Web app for learning English. Created in collaboration inside small team. Tools: TS, React JS, React Location, Redux Toolkit, Chart.js, Post CSS, Tailwind CSS, HeroIcons.",
     link: "https://github.com/vasily-mishanin/rs-lang",
   },
   {
     id: "giraff",
     image: "./images/giraff.png",
     text: "GirAff",
-    description: "Kanban-like Management App with Drag&Drop features",
+    description:
+      "Kanban-like Management App with Drag&Drop features. Tools: TS, React, Redux Toolkit, React Router 6.4, React Hook Form, MUI, React Beautiful DND, i18next, SCSS.",
     link: "https://github.com/vasily-mishanin/rss-management-app",
   },
   {
-    id: "little-lemon",
+    id: "little_lemon",
     image: "./images/little-lemon.png",
     text: "Little Lemon",
-    description: "Restaurant website",
+    description:
+      "A restaurant website. Tools: TS, React, React Router, Formik + Yup, SCSS.",
     link: "https://github.com/vasily-mishanin/little-lemon",
   },
   {
-    id: "virtual-keyboard",
+    id: "virtual_keyboard",
     image: "./images/virtual-keyboard.png",
     text: "Virtual Keyboard",
-    description: "Vanilla JS, HTML and CSS",
+    description: "Vanilla JS, HTML and CSS.",
     link: "https://github.com/vasily-mishanin/virtual-keyboard",
   },
   {
@@ -149,14 +158,14 @@ export const projects: Project[] = [
     image: "./images/readbook.png",
     text: "Readbook",
     description:
-      "Web app for managing books reading, frontend for OpenLibrary API",
+      "Web app for managing books reading, frontend for OpenLibrary API.",
     link: "https://github.com/vasily-mishanin/readbook_dataart",
   },
   {
-    id: "css-mem-slider",
+    id: "css_mem_slider",
     image: "./images/css-mem-slider.png",
     text: "Mem Slider",
-    description: "Made with HTML and CSS only",
+    description: "Made with HTML and CSS only.",
     link: "https://github.com/vasily-mishanin/cssMemSlider",
   },
 ];
@@ -219,3 +228,55 @@ export const myContacts: Contact[] = [
     link: "https://github.com/vasily-mishanin",
   },
 ];
+
+export const dictionary: Dictionary = {
+  mode: "en",
+  en: {
+    greeting: "Hi! I'm Vasily",
+    specialization: "FRONTEND DEVELOPER",
+    skills: "SKILLS",
+    core: "CORE",
+    tools: "LIBS, TOOLS",
+    languages: "LANGUAGES",
+    cert: "CERTIFICATIONS",
+    projects: "SOME OF MY PROJECTS",
+    other_projects: "Other projects on my GitHub",
+    contactme: "CONTACT ME",
+    download: "download resume",
+    copyright: "made on Vite with vanilla HTML, CSS and TS",
+    description__rs_lang:
+      "Web app for learning English. Created in collaboration inside small team. Tools: TS, React JS, React Location, Redux Toolkit, Chart.js, Post CSS, Tailwind CSS, HeroIcons.",
+    description__giraff:
+      "Kanban-like Management App with Drag&Drop features. Tools: TS, React, Redux Toolkit, React Router 6.4, React Hook Form, MUI, React Beautiful DND, i18next, SCSS.",
+    description__little_lemon:
+      "A restaurant website. Tools: TS, React, React Router, Formik + Yup, SCSS.",
+    description__virtual_keyboard: "Vanilla JS, HTML and CSS.",
+    description__readbook:
+      "Web app for managing books reading, frontend for OpenLibrary API.",
+    description__css_mem_slider: "Made with HTML and CSS only.",
+  },
+  ru: {
+    greeting: "Привет! Я Василий",
+    specialization: "ФРОНТЕНД РАЗРАБОТЧИК",
+    skills: "НАВЫКИ",
+    core: "БАЗА",
+    tools: "БИБЛИОТЕКИ, ИНСТРУМЕНТЫ",
+    languages: "ЯЗЫКИ",
+    cert: "СЕРТИФИКАТЫ",
+    projects: "НЕКОТОРЫЕ ИЗ МОИХ ПРОЕКТОВ",
+    other_projects: "Другие мои проекты на GitHub",
+    contactme: "СВЯЖИТЕСЬ СО МНОЙ",
+    download: "скачать резюме",
+    copyright: "сделано на Vite и чистых HTML, CSS, TS",
+    description__rs_lang:
+      "Веб-приложение для изучения английского. Создано внутри небольшой команды разработчиков. Инструменты: TS, React JS, React Location, Redux Toolkit, Chart.js, Post CSS, Tailwind CSS, HeroIcons.",
+    description__giraff:
+      "Веб-приложение по типу Канбан-доски для организации процессов. Инструменты: TS, React, Redux Toolkit, React Router 6.4, React Hook Form, MUI, React Beautiful DND, i18next, SCSS.",
+    description__little_lemon:
+      "Веб сайт ресторана. Tools: TS, React, React Router, Formik + Yup, SCSS.",
+    description__virtual_keyboard: "Написана на чистых JS, HTML и CSS.",
+    description__readbook:
+      "Веб-приложение для ведения списков книг, фронтенд для OpenLibrary API.",
+    description__css_mem_slider: "Написано на HTML и CSS.",
+  },
+};

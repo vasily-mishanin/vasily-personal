@@ -9,14 +9,14 @@ export function renderSkills() {
   skills.classList.add("skills");
 
   skills.innerHTML = `<div class='skills-box'>
-    <p class='skills__title'>SKILLS</p>
+    <p class='skills__title' data-dictionary='skills'>SKILLS</p>
     </div>`;
 
-  skills.innerHTML += ` <h3 class='skills__subtitle'>Core</h3>`;
+  skills.innerHTML += ` <h3 class='skills__subtitle' data-dictionary='core'>Core</h3>`;
   skills.innerHTML += renderSkillsList(skillsData__core);
-  skills.innerHTML += ` <h3 class='skills__subtitle'>Libs, Tools</h3>`;
+  skills.innerHTML += ` <h3 class='skills__subtitle' data-dictionary='tools'>Libs, Tools</h3>`;
   skills.innerHTML += renderSkillsList(skillsData__spec);
-  skills.innerHTML += ` <h3 class='skills__subtitle'>Languages</h3>`;
+  skills.innerHTML += ` <h3 class='skills__subtitle' data-dictionary='languages'>Languages</h3>`;
   skills.innerHTML += renderLanguageList(skillsData__lang);
 
   document.querySelector("main")!.prepend(skills);
