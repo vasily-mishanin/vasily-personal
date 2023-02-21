@@ -120,21 +120,23 @@ export const projects: Project[] = [
     image: "./images/rs-lang.png",
     text: "RS-Lang",
     description:
-      "Web app for learning English. Created in collaboration inside small team.",
+      "Web app for learning English. Created in collaboration inside small team. Tools: TS, React JS, React Location, Redux Toolkit, Chart.js, Post CSS, Tailwind CSS, HeroIcons.",
     link: "https://github.com/vasily-mishanin/rs-lang",
   },
   {
     id: "giraff",
     image: "./images/giraff.png",
     text: "GirAff",
-    description: "Kanban-like Management App with Drag&Drop features",
+    description:
+      "Kanban-like Management App with Drag&Drop features. Tools: TS, React, Redux Toolkit, React Router 6.4, React Hook Form, MUI, React Beautiful DND, i18next, SCSS",
     link: "https://github.com/vasily-mishanin/rss-management-app",
   },
   {
     id: "little-lemon",
     image: "./images/little-lemon.png",
     text: "Little Lemon",
-    description: "Restaurant website",
+    description:
+      "Restaurant website. Tools: TS, React, React Router, Formik + Yup, SCSS.",
     link: "https://github.com/vasily-mishanin/little-lemon",
   },
   {
@@ -149,7 +151,7 @@ export const projects: Project[] = [
     image: "./images/readbook.png",
     text: "Readbook",
     description:
-      "Web app for managing books reading, frontend for OpenLibrary API",
+      "Web app for managing books reading, frontend for OpenLibrary API.",
     link: "https://github.com/vasily-mishanin/readbook_dataart",
   },
   {
