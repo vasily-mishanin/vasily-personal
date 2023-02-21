@@ -7,7 +7,7 @@ export function renderCertifications() {
   certifications.classList.add("certifications");
 
   certifications.innerHTML = `<div class='certifications-box'>
-  <p class='certifications__title'>CERTIFICATIONS</p>
+  <p class='certifications__title' data-dictionary='cert'>CERTIFICATIONS</p>
   </div>`;
   certifications.innerHTML += renderCertList(certificationsData);
   document.querySelector(".skills")?.after(certifications);

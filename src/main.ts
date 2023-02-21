@@ -17,7 +17,7 @@ const hiddenElements = document.querySelectorAll(".hidden");
 
 hiddenElements.forEach((el) => observer.observe(el));
 
-//SKILLS
+//SKILLS animation
 const observerSkills = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -31,7 +31,7 @@ const observerSkills = new IntersectionObserver((entries) => {
 const hiddenSkillElements = document.querySelectorAll(".hidden-skill");
 hiddenSkillElements.forEach((el) => observerSkills.observe(el));
 
-//CERTIFICATES
+//CERTIFICATES anmation
 const observerCertificate = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {

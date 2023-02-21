@@ -51,7 +51,7 @@
   transition: color 0.5s ease;
   font-family: var(--font-Roboto);
   transform: rotate(-45deg);
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .projects__list {

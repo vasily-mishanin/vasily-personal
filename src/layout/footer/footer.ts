@@ -10,6 +10,6 @@ document.querySelector("#app")!.append(footer);
 renderContacts();
 
 footer.innerHTML += `<div class='footer__copyright'>
-<p> made on Vite with vanilla HTML, CSS and TS</p>
+<p data-dictionary='copyright'> made on Vite with vanilla HTML, CSS and TS</p>
 <p> © ${todayYear}</p>
 </div>`;

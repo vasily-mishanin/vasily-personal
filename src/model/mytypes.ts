@@ -43,3 +43,9 @@ export interface Contact {
   text: string;
   link: string;
 }
+
+export interface Dictionary {
+  mode: "en" | "ru";
+  en: { [key: string]: string };
+  ru: { [key: string]: string };
+}

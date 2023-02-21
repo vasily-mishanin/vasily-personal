@@ -10,3 +10,9 @@
   gap: 2rem;
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 500px) {
+  .footer__copyright {
+    font-size: 0.8rem;
+  }
+}
