@@ -119,6 +119,14 @@ export const certifications: Certification[] = [
     description: "",
     link: "https://www.credly.com/badges/b1a219b2-9ec0-45bd-b79b-da32b172170a/public_url",
   },
+  {
+    id: "20230227",
+    image: "./images/certif-2022-02-27-udemy-typescript.jpg",
+    text: "Understanding TypeScript",
+    description:
+      "Understanding TypeScript by Maximilian Schwarzmüller, Academind",
+    link: "https://www.udemy.com/course/understanding-typescript/",
+  },
 ];
 
 export const projects: Project[] = [
