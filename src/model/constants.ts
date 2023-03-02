@@ -190,7 +190,7 @@ export const myContacts: Contact[] = [
     id: "tel2",
     type: "tel",
     image: "./images/icon-phone-call.png",
-    text: "+996770119715",
+    text: "+996703155666",
     link: "tel:+996770119715",
   },
   {
