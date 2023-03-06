@@ -177,10 +177,10 @@ export const projects: Project[] = [
     link: "https://github.com/vasily-mishanin/cssMemSlider",
   },
   {
-    id: "ip-tracker-20230306",
+    id: "ip_tracker",
     image: "./images/ip-tracker.png",
     text: "IP Address Tracker",
-    description: "Made with Vite + TS/HTML/CSS only.",
+    description: "Made with Vite + TS/HTML/CSS",
     link: "https://github.com/vasily-mishanin/ip-address-tracker",
   },
 ];
@@ -269,6 +269,7 @@ export const dictionary: Dictionary = {
     description__readbook:
       "Web app for managing books reading, frontend for OpenLibrary API.",
     description__css_mem_slider: "Made with HTML and CSS only.",
+    description__ip_tracker: "Made with Vite + TS/HTML/CSS",
   },
   ru: {
     greeting: "Привет! Я Василий",
@@ -293,5 +294,6 @@ export const dictionary: Dictionary = {
     description__readbook:
       "Веб-приложение для ведения списков книг, фронтенд для OpenLibrary API.",
     description__css_mem_slider: "Написано на HTML и CSS.",
+    description__ip_tracker: "Сделано на Vite + TS/HTML/CSS",
   },
 };
