@@ -176,6 +176,13 @@ export const projects: Project[] = [
     description: "Made with HTML and CSS only.",
     link: "https://github.com/vasily-mishanin/cssMemSlider",
   },
+  {
+    id: "ip-tracker-20230306",
+    image: "./images/ip-tracker.png",
+    text: "IP Address Tracker",
+    description: "Made with Vite + TS/HTML/CSS only.",
+    link: "https://github.com/vasily-mishanin/ip-address-tracker",
+  },
 ];
 
 export const myContacts: Contact[] = [
