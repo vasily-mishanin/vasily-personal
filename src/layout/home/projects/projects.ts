@@ -1,19 +1,19 @@
-import { Project } from "../../../model/mytypes";
-import "./projects.css";
-import { projects as projectsData } from "../../../model/constants";
+import { Project } from '../../../model/mytypes';
+import './projects.css';
+import { projects as projectsData } from '../../../model/constants';
 
 export function renderProjects() {
-  const projects = document.createElement("section");
-  projects.classList.add("projects");
+  const projects = document.createElement('section');
+  projects.classList.add('projects');
   projects.innerHTML = `<div class='projects-box'>
   <p class='projects__title'  data-dictionary='projects'>SOME OF MY PROJECTS</p>
   </div>`;
 
   projects.innerHTML += renderProgectList(projectsData);
   const github = {
-    image: "./images/icon-github.png",
-    text: "Other projects on my GitHub",
-    link: "https://github.com/vasily-mishanin",
+    image: './images/icon-github.png',
+    text: 'Other projects on my GitHub',
+    link: 'https://github.com/vasily-mishanin',
   };
   projects.innerHTML += `<a class='github' href=${github.link} alt=${github.text} target="_blank" rel=”noreferrer”>
                         <div class='github__text'><p data-dictionary='other_projects'>${github.text}</p></div>
@@ -22,7 +22,7 @@ export function renderProjects() {
                          </div>
                          </a>`;
 
-  document.querySelector(".certifications")?.after(projects);
+  document.querySelector('.certifications')?.after(projects);
 }
 
 function renderProgectCard(
@@ -46,6 +46,7 @@ function renderProgectCard(
 
 function renderProgectList(projects: Project[]) {
   let projectsHTML = projects
+    .reverse()
     .map((project) => {
       return `<li class='project__item'>${renderProgectCard(
         project.id,
@@ -55,7 +56,7 @@ function renderProgectList(projects: Project[]) {
         project.description
       )}</li>`;
     })
-    .join(" ");
+    .join(' ');
 
   return `<ul class='projects__list'>${projectsHTML}</ul>`;
 }
