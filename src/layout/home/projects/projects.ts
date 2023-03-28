@@ -1,6 +1,6 @@
 import { Project } from '../../../model/mytypes';
 import './projects.css';
-import { projects as projectsData } from '../../../model/constants';
+import { projects as projectsData } from '../../../model/projects';
 
 export function renderProjects() {
   const projects = document.createElement('section');
