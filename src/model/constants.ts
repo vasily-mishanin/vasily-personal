@@ -1,11 +1,4 @@
-import {
-  Certification,
-  Contact,
-  Dictionary,
-  Language,
-  Project,
-  Skill,
-} from './mytypes';
+import { Certification, Contact, Language, Skill } from './mytypes';
 
 export const skills__core: Skill[] = [
   {
@@ -129,77 +122,6 @@ export const certifications: Certification[] = [
   },
 ];
 
-export const projects: Project[] = [
-  {
-    id: 'rs_lang',
-    image: './images/rs-lang.png',
-    text: 'RS-Lang',
-    description:
-      'Web app for learning English. Created in collaboration inside small team. Tools: TS, React JS, React Location, Redux Toolkit, Chart.js, Post CSS, Tailwind CSS, HeroIcons.',
-    link: 'https://github.com/vasily-mishanin/rs-lang',
-  },
-  {
-    id: 'giraff',
-    image: './images/giraff.png',
-    text: 'GirAff',
-    description:
-      'Kanban-like Management App with Drag&Drop features. Tools: TS, React, Redux Toolkit, React Router 6.4, React Hook Form, MUI, React Beautiful DND, i18next, SCSS.',
-    link: 'https://github.com/vasily-mishanin/rss-management-app',
-  },
-  {
-    id: 'little_lemon',
-    image: './images/little-lemon.png',
-    text: 'Little Lemon',
-    description:
-      'A restaurant website. Tools: TS, React, React Router, Formik + Yup, SCSS.',
-    link: 'https://github.com/vasily-mishanin/little-lemon',
-  },
-  {
-    id: 'virtual_keyboard',
-    image: './images/virtual-keyboard.png',
-    text: 'Virtual Keyboard',
-    description: 'Vanilla JS, HTML and CSS.',
-    link: 'https://github.com/vasily-mishanin/virtual-keyboard',
-  },
-  {
-    id: 'readbook',
-    image: './images/readbook.png',
-    text: 'Readbook',
-    description:
-      'Web app for managing books reading, frontend for OpenLibrary API.',
-    link: 'https://github.com/vasily-mishanin/readbook_dataart',
-  },
-  {
-    id: 'css_mem_slider',
-    image: './images/css-mem-slider.png',
-    text: 'Mem Slider',
-    description: 'Made with HTML and CSS only.',
-    link: 'https://github.com/vasily-mishanin/cssMemSlider',
-  },
-  {
-    id: 'ip_tracker',
-    image: './images/ip-tracker.png',
-    text: 'IP Address Tracker',
-    description: 'Made with Vite + TS/HTML/CSS + maps API',
-    link: 'https://github.com/vasily-mishanin/ip-address-tracker',
-  },
-  {
-    id: 'lenza_chat_ui',
-    image: './images/lenza-chat-ui.png',
-    text: 'Lenza Chat UI',
-    description: 'Made with CRA and SCSS + chat API',
-    link: 'https://github.com/vasily-mishanin/-lenza-chat-ui',
-  },
-  {
-    id: 'hacker_news_ui',
-    image: './images/hacker-news-ui.png',
-    text: 'Hacker News API',
-    description:
-      'Made with Remix fullstack framework + API Hacker News. Comments trees.',
-    link: 'https://github.com/vasily-mishanin/hacker-news-ui',
-  },
-];
-
 export const myContacts: Contact[] = [
   {
     id: 'tel1',
@@ -258,64 +180,3 @@ export const myContacts: Contact[] = [
     link: 'https://github.com/vasily-mishanin',
   },
 ];
-
-export const dictionary: Dictionary = {
-  mode: 'en',
-  en: {
-    greeting: "Hi! I'm Vasily",
-    specialization: 'FRONTEND DEVELOPER',
-    skills: 'SKILLS',
-    core: 'CORE',
-    tools: 'LIBS, TOOLS',
-    languages: 'LANGUAGES',
-    cert: 'CERTIFICATIONS',
-    projects: 'SOME OF MY PROJECTS',
-    other_projects: 'Other projects on my GitHub',
-    contactme: 'CONTACT ME',
-    download: 'download resume',
-    copyright: 'made on Vite with vanilla HTML, CSS and TS',
-    description__rs_lang:
-      'Web app for learning English. Created in collaboration inside small team. Tools: TS, React JS, React Location, Redux Toolkit, Chart.js, Post CSS, Tailwind CSS, HeroIcons.',
-    description__giraff:
-      'Kanban-like Management App with Drag&Drop features. Tools: TS, React, Redux Toolkit, React Router 6.4, React Hook Form, MUI, React Beautiful DND, i18next, SCSS.',
-    description__little_lemon:
-      'A restaurant website. Tools: TS, React, React Router, Formik + Yup, SCSS.',
-    description__virtual_keyboard: 'Vanilla JS, HTML and CSS.',
-    description__readbook:
-      'Web app for managing books reading, frontend for OpenLibrary API.',
-    description__css_mem_slider: 'Made with HTML and CSS only.',
-    description__ip_tracker: 'Made with Vite + TS/HTML/CSS',
-    description__lenza_chat_ui: 'Made with CRA and SCSS + chat API',
-    description__hacker_news_ui:
-      'Made with Remix fullstack framework + API Hacker News. Comments trees.',
-  },
-  ru: {
-    greeting: 'Привет! Я Василий',
-    specialization: 'ФРОНТЕНД РАЗРАБОТЧИК',
-    skills: 'НАВЫКИ',
-    core: 'БАЗА',
-    tools: 'БИБЛИОТЕКИ, ИНСТРУМЕНТЫ',
-    languages: 'ЯЗЫКИ',
-    cert: 'СЕРТИФИКАТЫ',
-    projects: 'НЕКОТОРЫЕ ИЗ МОИХ ПРОЕКТОВ',
-    other_projects: 'Другие мои проекты на GitHub',
-    contactme: 'СВЯЖИТЕСЬ СО МНОЙ',
-    download: 'скачать резюме',
-    copyright: 'сделано на Vite и чистых HTML, CSS, TS',
-    description__rs_lang:
-      'Веб-приложение для изучения английского. Создано внутри небольшой команды разработчиков. Инструменты: TS, React JS, React Location, Redux Toolkit, Chart.js, Post CSS, Tailwind CSS, HeroIcons.',
-    description__giraff:
-      'Веб-приложение по типу Канбан-доски для организации процессов. Инструменты: TS, React, Redux Toolkit, React Router 6.4, React Hook Form, MUI, React Beautiful DND, i18next, SCSS.',
-    description__little_lemon:
-      'Веб сайт ресторана. Tools: TS, React, React Router, Formik + Yup, SCSS.',
-    description__virtual_keyboard: 'Написана на чистых JS, HTML и CSS.',
-    description__readbook:
-      'Веб-приложение для ведения списков книг, фронтенд для OpenLibrary API.',
-    description__css_mem_slider: 'Написано на HTML и CSS.',
-    description__ip_tracker:
-      'Сделано на Vite + TS/HTML/CSS + API электронных карт',
-    description__lenza_chat_ui: 'Сделано на CRA + SCSS + API чатов',
-    description__hacker_news_ui:
-      'Сделано на Remix (fullstack фреймворк) + API Hacker News. Реализованы деревья комментариев',
-  },
-};

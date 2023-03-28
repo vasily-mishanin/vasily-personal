@@ -1,8 +1,8 @@
-import "./header.css";
-import { dictionary } from "../../model/constants";
+import './header.css';
+import { dictionary } from '../../model/dictionary';
 
-const header = document.createElement("header");
-header.className = "header pattern-header";
+const header = document.createElement('header');
+header.className = 'header pattern-header';
 
 header.innerHTML = `<section class="header-inner">
 <div class='header__image hidden'>
@@ -21,21 +21,21 @@ header.innerHTML += `<div class='select'>
 </select>
 </div>`;
 
-document.querySelector("#app")!.prepend(header);
+document.querySelector('#app')!.prepend(header);
 
 // CHANGE LANGUAGE
 const languageSelector = header.querySelector(
-  "#languageSelect"
+  '#languageSelect'
 ) as HTMLSelectElement;
-languageSelector?.addEventListener("change", changeLanguage);
+languageSelector?.addEventListener('change', changeLanguage);
 
 function changeLanguage(event: Event) {
   const select = event.target as HTMLSelectElement;
   const lang = select.value;
-  if (lang === "en" || lang === "ru") {
+  if (lang === 'en' || lang === 'ru') {
     dictionary.mode = lang;
     document
-      .querySelectorAll<HTMLElement>("[data-dictionary]")
+      .querySelectorAll<HTMLElement>('[data-dictionary]')
       .forEach((element) => {
         if (element.dataset.dictionary) {
           element.textContent = dictionary[lang][element.dataset.dictionary];
