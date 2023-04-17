@@ -39,7 +39,7 @@ export const skills__spec: Skill[] = [
   {
     id: 'hh5erscssd',
     text: 'SCSS',
-    image: './images/sass.png',
+    image: './images/sass.svg',
     description:
       'Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets',
   },
@@ -68,6 +68,12 @@ export const skills__spec: Skill[] = [
     image: './images/webpack.png',
     description:
       'Webpack is a free and open-source module bundler for JavaScript.',
+  },
+  {
+    id: 'nextjs34345dsvf',
+    text: 'Next.js',
+    image: './images/logo-next-js.svg',
+    description: 'Next.js - the React Framework for production',
   },
 ];
 
@@ -119,6 +125,14 @@ export const certifications: Certification[] = [
     description:
       'Understanding TypeScript by Maximilian Schwarzmüller, Academind',
     link: 'https://www.udemy.com/course/understanding-typescript/',
+  },
+  {
+    id: '20230417',
+    image: './images/certificate-nextjs-udemy-academind-vasily-mishanin.jpg',
+    text: ' Next.js',
+    description:
+      'Next.js & React - The Complete Guide (incl. Two Paths!) by Maximilian Schwarzmüller',
+    link: 'https://www.udemy.com/certificate/UC-fdbaa711-4002-4fed-83bf-52e65affa010/',
   },
 ];
 
