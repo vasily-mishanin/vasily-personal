@@ -99,5 +99,12 @@
 .certifications__item img {
   width: 100%;
   height: 100%;
+}
+
+.contain {
   object-fit: contain;
+}
+
+.cover {
+  object-fit: cover;
 }
