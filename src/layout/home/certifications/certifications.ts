@@ -25,6 +25,7 @@ function renderCertItem(image: string, text: string, link: string) {
 
 function renderCertList(certifications: Certification[]) {
   let certificationsHTML = certifications
+    .reverse()
     .map((certification) => {
       return `<li class='certifications__item hidden-certificate'>${renderCertItem(
         certification.image,
