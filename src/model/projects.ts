@@ -82,7 +82,7 @@ export const projects: Project[] = [
     image: './images/project-todosnext.png',
     text: 'Todos Next',
     description:
-      'Fullstack web application to manage todos: authentication, authorization, CRUD operations, Comprehensive responsive UI/UX. Made with Next JS and Redux Toolkit.',
+      'Fullstack multiuser web application to manage todos: authentication, authorization, CRUD operations. Comprehensive responsive UI/UX. Made with Next JS and Redux Toolkit.',
     link: 'https://github.com/vasily-mishanin/todos-next',
   },
 ];
