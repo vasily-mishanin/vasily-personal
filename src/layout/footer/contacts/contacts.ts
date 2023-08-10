@@ -1,15 +1,15 @@
-import { myContacts } from "../../../model/constants";
-import { Contact } from "../../../model/mytypes";
-import resume_en from "../../../../src/resume/resume-mishanin-eng.pdf";
-import resume_ru from "../../../../src/resume/resume-mishanin-ru.pdf";
+import { myContacts } from '../../../model/constants';
+import { Contact } from '../../../model/mytypes';
+import resume_en from '/src/resume/resume-mishanin-eng.pdf';
+import resume_ru from '/src/resume/resume-mishanin-eng.pdf';
 
-const downloadIcon = "./images/downloading.png";
+const downloadIcon = './images/downloading.png';
 
-import "./contacts.css";
+import './contacts.css';
 
 export function renderContacts() {
-  const contacts = document.createElement("section");
-  contacts.classList.add("contacts");
+  const contacts = document.createElement('section');
+  contacts.classList.add('contacts');
 
   contacts.innerHTML = `<div class='contacts-box'><p class='contacts__title' data-dictionary='contactme'>CONTACT ME</p></div>`;
   contacts.innerHTML += renderContactList(myContacts);
@@ -24,7 +24,7 @@ export function renderContacts() {
  </a>
   </div>`;
 
-  document.querySelector(".footer")?.prepend(contacts);
+  document.querySelector('.footer')?.prepend(contacts);
 }
 
 function renderContactItem(contact: Contact) {
@@ -41,6 +41,6 @@ function renderContactList(contacts: Contact[]) {
     .map((contact) => {
       return `<li class='contacts__item'>${renderContactItem(contact)}</li>`;
     })
-    .join(" ");
+    .join(' ');
   return `<ul class='contacts__list'>${contactsHTML}</ul>`;
 }
