@@ -136,15 +136,23 @@ export const certifications: Certification[] = [
   {
     id: '20230417',
     image: './images/certificate-nextjs-udemy-academind-vasily-mishanin.jpg',
-    text: ' Next.js',
+    text: 'Next.js',
     description:
       'Next.js & React - The Complete Guide (incl. Two Paths!) by Maximilian Schwarzmüller',
     link: 'https://www.udemy.com/certificate/UC-fdbaa711-4002-4fed-83bf-52e65affa010/',
   },
   {
+    id: '20230621',
+    image: './images/certif-apollo-client.png',
+    text: 'Apollo Client',
+    description:
+      'GraphQL and the Apollo tool suite to design a schema, run an Apollo Server 4, and perform queries with Apollo Client 3 on the frontend',
+    link: 'https://www.apollographql.com/tutorials/certifications/03e76bb0-f14e-487c-baac-6dfec83d9bd5',
+  },
+  {
     id: '20230808',
     image: './images/certif-dsr-react.png',
-    text: ' DSR React',
+    text: 'DSR React',
     description: 'DSR Deep Dive Into React Mentorship Bootcamp',
     link: 'https://certificates.dsr-corporation.com/courseCertificates/64c787695fde9703ecb2d701',
   },

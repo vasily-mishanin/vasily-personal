@@ -106,7 +106,6 @@
 .project__name {
   color: var(--color-main-black);
   font-weight: bold;
-  text-decoration: underline wavy var(--color-accent-yellow);
   margin-bottom: 1rem;
 }
 

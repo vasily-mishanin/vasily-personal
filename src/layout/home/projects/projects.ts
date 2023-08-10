@@ -10,6 +10,7 @@ export function renderProjects() {
   </div>`;
 
   projects.innerHTML += renderProgectList(projectsData);
+
   const github = {
     image: './images/icon-github.png',
     text: 'Other projects on my GitHub',
