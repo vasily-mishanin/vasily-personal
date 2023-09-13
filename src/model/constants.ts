@@ -102,14 +102,14 @@ export const certifications: Certification[] = [
     image: './images/certif-rss-frontend-2022.jpg',
     text: 'RS School(feat.EPAM) - JS/Frontend 2022Q1 (score 48/888)',
     description: '',
-    link: 'https://rs.school/',
+    link: 'https://app.rs.school/certificate/66i881lx',
   },
   {
     id: '202212',
     image: './images/certif-rss-react-2022.jpg',
     text: 'RS School(feat.EPAM) - React 2022Q3',
     description: '',
-    link: 'https://rs.school/',
+    link: 'https://app.rs.school/certificate/cy609ibx',
   },
   {
     id: '202302',
