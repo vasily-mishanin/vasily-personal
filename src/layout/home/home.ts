@@ -1,14 +1,14 @@
-import "./home.css";
-import { renderSkills } from "./skills/skills";
-import { renderCertifications } from "./certifications/certifications";
-import { renderProjects } from "./projects/projects";
+import './home.css';
+import { renderSkills } from './skills/skills';
+import { renderCertifications } from './certifications/certifications';
+import { renderProjects } from './projects/projects';
 
-const main = document.createElement("main");
+const main = document.createElement('main');
 
 //main.innerHTML = '<h1>MAIN</h1>';
 
-document.querySelector("header")!.after(main);
+document.querySelector('header')!.after(main);
 
 renderSkills();
-renderCertifications();
 renderProjects();
+renderCertifications();

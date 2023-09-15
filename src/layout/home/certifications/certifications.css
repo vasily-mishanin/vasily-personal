@@ -1,6 +1,6 @@
 .certifications {
   position: relative;
-  background-color: var(--color-main-black);
+  background: var(--color-accent-blue);
   color: var(--color-main-light);
   padding: 100px 30px 120px;
 
@@ -87,18 +87,22 @@
   height: 230px;
 }
 
-.certifications__image:hover {
-  box-shadow: 0 0 5px 0px var(--color-main-light);
-}
-
 .certifications__image a {
   width: 100%;
   height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certifications__image a:hover img {
+  box-shadow: 0 0 10px 2px lightblue;
 }
 
 .certifications__item img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .contain {

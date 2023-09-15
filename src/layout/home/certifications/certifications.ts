@@ -10,7 +10,7 @@ export function renderCertifications() {
   <p class='certifications__title' data-dictionary='cert'>CERTIFICATIONS</p>
   </div>`;
   certifications.innerHTML += renderCertList(certificationsData);
-  document.querySelector('.skills')?.after(certifications);
+  document.querySelector('.projects')?.after(certifications);
 }
 
 function renderCertItem(image: string, text: string, link: string) {

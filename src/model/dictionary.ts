@@ -32,7 +32,7 @@ export const dictionary: Dictionary = {
     description__multi_step_form:
       'Multi Step Form with flexible state management. Made with React and Vite.',
     description__todosnext:
-      'Fullstack web application to manage todos: authentication, authorization, CRUD operations, Comprehensive responsive UI/UX. Made with Next JS and Redux Toolkit.',
+      'Fullstack web application to manage todos: authentication, authorization, CRUD operations, Comprehensive responsive UI/UX. Made with Next.js and Redux Toolkit.',
   },
 
   ru: {
@@ -66,6 +66,6 @@ export const dictionary: Dictionary = {
     description__multi_step_form:
       'Многошаговая форма с гибким упралением состоянием. Сделано на React и Vite.',
     description__todosnext:
-      'Fullstack веб приложение для ведения списка дел различными пользователями. Сделано на Next JS и Redux Toolkit',
+      'Fullstack веб приложение для ведения списка дел различными пользователями. Сделано на Next.js и Redux Toolkit. Реализован широкий функционал DnD.',
   },
 };
