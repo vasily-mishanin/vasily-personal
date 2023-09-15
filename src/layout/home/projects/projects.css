@@ -1,6 +1,9 @@
 .projects {
   position: relative;
-  background-color: var(--color-main-dark);
+  background: radial-gradient(
+    var(--color-accent-blue),
+    var(--color-main-light)
+  );
   color: var(--color-main-dark);
   padding: 130px 30px 80px;
 }
@@ -81,7 +84,7 @@
 }
 
 .project__card:hover {
-  box-shadow: 0 0 15px 0px var(--color-main-dark);
+  box-shadow: 0 0 15px 0px lightblue;
 }
 
 .project__card-image {
