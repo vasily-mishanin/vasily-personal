@@ -1,6 +1,6 @@
 .certifications {
   position: relative;
-  background-color: var(--color-main-black);
+  background: linear-gradient(var(--color-main-light), var(--color-main-dark));
   color: var(--color-main-light);
   padding: 100px 30px 120px;
 

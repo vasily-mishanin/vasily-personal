@@ -23,7 +23,7 @@ export function renderProjects() {
                          </div>
                          </a>`;
 
-  document.querySelector('.certifications')?.after(projects);
+  document.querySelector('.skills')?.after(projects);
 }
 
 function renderProgectCard(
