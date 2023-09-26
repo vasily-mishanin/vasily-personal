@@ -2,6 +2,7 @@ import { Dictionary } from './mytypes';
 
 export const dictionary: Dictionary = {
   mode: 'en',
+
   en: {
     greeting: "Hi! I'm Vasily",
     specialization: 'FRONTEND DEVELOPER',
@@ -32,7 +33,7 @@ export const dictionary: Dictionary = {
     description__multi_step_form:
       'Multi Step Form with flexible state management. Made with React and Vite.',
     description__todosnext:
-      'Fullstack web application to manage todos: authentication, authorization, CRUD operations, Comprehensive responsive UI/UX. Made with Next.js and Redux Toolkit.',
+      'Fullstack web application to manage todos: authentication, authorization, CRUD operations, Comprehensive responsive UI/UX with DnD features. Made with Next.js and Redux Toolkit.',
   },
 
   ru: {
