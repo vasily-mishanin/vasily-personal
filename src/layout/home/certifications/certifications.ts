@@ -17,7 +17,7 @@ function renderCertItem(image: string, text: string, link: string) {
   const modificator =
     text.startsWith('Meta') || text.startsWith('Apollo') ? 'contain' : 'cover';
 
-  return `<div class="certifications__image"}>
+  return `<div class="certifications__image">
   <a href=${link} target="_blank" rel=”noreferrer”>
   <img class="${modificator}" src='${image}' alt='${text}'/>
   </a>

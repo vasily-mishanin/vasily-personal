@@ -1,11 +1,12 @@
-import { renderContacts } from "./contacts/contacts";
-import "./footer.css";
+import { renderContacts } from './contacts/contacts';
+import './footer.css';
 const todayYear = new Date().getFullYear();
 
-const footer = document.createElement("footer");
-footer.classList.add("footer");
+const footer = document.createElement('footer');
+footer.id = 'footer';
+footer.classList.add('footer');
 
-document.querySelector("#app")!.append(footer);
+document.querySelector('#app')!.append(footer);
 
 renderContacts();
 
