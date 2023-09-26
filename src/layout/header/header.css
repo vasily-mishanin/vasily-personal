@@ -9,7 +9,7 @@
   font-family: var(--font-Karla);
 }
 
-.header-inner {
+.header-greeting {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -74,6 +74,14 @@
 .select__language option {
   width: 50px;
   padding: 0.25rem;
+}
+
+.link-to-bottom {
+  align-self: flex-end;
+  margin-top: 3rem;
+  margin-right: 3rem;
+  color: var(--color-accent-yellow);
+  font-size: 0.75rem;
 }
 
 @media screen and (max-width: 413px) {

@@ -4,7 +4,7 @@ import { dictionary } from '../../model/dictionary';
 const header = document.createElement('header');
 header.className = 'header pattern-header';
 
-header.innerHTML = `<section class="header-inner">
+header.innerHTML = `<section class="header-greeting">
 <div class='header__image hidden'>
 <img src="./images/vasily-mishanin.jpg" alt="Vasily\'s photo">
 </div>
@@ -12,7 +12,8 @@ header.innerHTML = `<section class="header-inner">
 <h1 class='header-title' data-dictionary='greeting'>Hi! I'm Vasily</h1>
 <p class='header-subtitle' data-dictionary='specialization'> FRONTEND DEVELOPER </p>
 </div>
-</section>`;
+</section>
+<div class='link-to-bottom'><a href="#footer" >↓ to contacts and resume</a></div>`;
 
 header.innerHTML += `<div class='select'>
 <select class='select__language'  id='languageSelect'>
