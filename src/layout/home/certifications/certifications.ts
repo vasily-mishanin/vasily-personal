@@ -1,6 +1,6 @@
 import { Certification } from '../../../model/mytypes';
 import './certifications.css';
-import { certifications as certificationsData } from '../../../model/constants';
+import { certifications as certificationsData } from '../../../model/data_certifications';
 
 export function renderCertifications() {
   let certifications = document.createElement('section');

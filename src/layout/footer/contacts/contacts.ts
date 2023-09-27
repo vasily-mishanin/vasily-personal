@@ -1,4 +1,4 @@
-import { myContacts } from '../../../model/constants';
+import { myContacts } from '../../../model/data_contacts';
 import { Contact } from '../../../model/mytypes';
 import resume_en from '/src/resume/resume-mishanin-eng.pdf';
 import resume_ru from '/src/resume/resume-mishanin-ru.pdf';
