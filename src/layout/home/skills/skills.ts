@@ -1,12 +1,12 @@
-import "./skills.css";
-import { Language, Skill } from "../../../model/mytypes";
-import { skills__core as skillsData__core } from "../../../model/constants";
-import { skills__spec as skillsData__spec } from "../../../model/constants";
-import { skills__languages as skillsData__lang } from "../../../model/constants";
+import './skills.css';
+import { Language, Skill } from '../../../model/mytypes';
+import { skills__core as skillsData__core } from '../../../model/data_skills';
+import { skills__spec as skillsData__spec } from '../../../model/data_skills';
+import { skills__languages as skillsData__lang } from '../../../model/data_skills';
 
 export function renderSkills() {
-  const skills = document.createElement("section");
-  skills.classList.add("skills");
+  const skills = document.createElement('section');
+  skills.classList.add('skills');
 
   skills.innerHTML = `<div class='skills-box'>
     <p class='skills__title' data-dictionary='skills'>SKILLS</p>
@@ -19,7 +19,7 @@ export function renderSkills() {
   skills.innerHTML += ` <h3 class='skills__subtitle' data-dictionary='languages'>Languages</h3>`;
   skills.innerHTML += renderLanguageList(skillsData__lang);
 
-  document.querySelector("main")!.prepend(skills);
+  document.querySelector('main')!.prepend(skills);
 }
 
 function renderSkillItem(image: string, text: string) {
@@ -34,7 +34,7 @@ function renderSkillsList(skills: Skill[]) {
         skill.text
       )}</li>`;
     })
-    .join(" ");
+    .join(' ');
   return `<ul class='skills__list'>${skillsHTML}</ul>`;
 }
 
@@ -57,6 +57,6 @@ function renderLanguageList(languages: Language[]) {
         language.level
       )}</li>`;
     })
-    .join(" ");
+    .join(' ');
   return `<ul class='skills__list'>${skillsHTML}</ul>`;
 }

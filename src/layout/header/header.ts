@@ -13,7 +13,7 @@ header.innerHTML = `<section class="header-greeting">
 <p class='header-subtitle' data-dictionary='specialization'> FRONTEND DEVELOPER </p>
 </div>
 </section>
-<div class='link-to-bottom'><a href="#footer" >↓ to contacts and resume</a></div>`;
+<div class='link-to-bottom'><a href="#footer" data-dictionary='link_to_bottom'>↓ to contacts and resume</a></div>`;
 
 header.innerHTML += `<div class='select'>
 <select class='select__language'  id='languageSelect'>
