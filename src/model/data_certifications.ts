@@ -67,4 +67,12 @@ export const certifications: Certification[] = [
     description: 'DSR Deep Dive Into React Mentorship Bootcamp',
     link: 'https://certificates.dsr-corporation.com/courseCertificates/64c787695fde9703ecb2d701',
   },
+
+  {
+    id: '20230929',
+    image: './images/certif-udemy-testing-react.jpeg',
+    text: 'Udemy Testing React',
+    description: 'Testing React with Jest and React Testing Library (RTL)',
+    link: 'https://www.udemy.com/certificate/UC-a87334f3-a879-43c2-89b7-1c85c0b83e6b',
+  },
 ];
