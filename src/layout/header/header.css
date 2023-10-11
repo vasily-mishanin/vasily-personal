@@ -81,7 +81,11 @@
   margin-top: 3rem;
   margin-right: 3rem;
   color: var(--color-accent-yellow);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.link-to-bottom:hover {
+  color: var(--color-main-light);
 }
 
 @media screen and (max-width: 413px) {
