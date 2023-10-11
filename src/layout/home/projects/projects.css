@@ -34,7 +34,6 @@
 
   color: var(--color-main-black);
   box-shadow: 0 0 10px 2px lightblue;
-  /* transform: rotate(45deg); */
   animation: boxAnimation 1s infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
@@ -93,7 +92,8 @@
 }
 
 .project__card-image {
-  grid-row: span 5;
+  grid-row: span 6;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   padding-top: 0.5rem;
