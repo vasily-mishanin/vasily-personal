@@ -37,13 +37,6 @@ export const skills__core: Skill[] = [
 
 export const skills__spec: Skill[] = [
   {
-    id: 'hh5erscssd',
-    text: 'SCSS',
-    image: './images/sass.svg',
-    description:
-      'Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets',
-  },
-  {
     id: 'react54it4',
     text: 'React JS',
     image: './images/react-icon.png',
@@ -63,13 +56,6 @@ export const skills__spec: Skill[] = [
     description: 'Redux Toolkit - toolset for efficient Redux development',
   },
   {
-    id: 'webpack4bfv5t',
-    text: 'Webpack',
-    image: './images/webpack.png',
-    description:
-      'Webpack is a free and open-source module bundler for JavaScript.',
-  },
-  {
     id: 'nextjs34345dsvf',
     text: 'Next.js',
     image: './images/logo-next-js.svg',
@@ -81,6 +67,20 @@ export const skills__spec: Skill[] = [
     image: './images/graphql.png',
     description:
       'GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.',
+  },
+  {
+    id: 'hh5erscssd',
+    text: 'SCSS',
+    image: './images/sass.svg',
+    description:
+      'Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets',
+  },
+  {
+    id: 'webpack4bfv5t',
+    text: 'Webpack',
+    image: './images/webpack.png',
+    description:
+      'Webpack is a free and open-source module bundler for JavaScript.',
   },
 ];
 
