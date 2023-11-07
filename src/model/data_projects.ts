@@ -10,14 +10,6 @@ export const projects: Project[] = [
     link: 'https://github.com/vasily-mishanin/rs-lang',
   },
   {
-    id: 'giraff',
-    image: './images/giraff.png',
-    text: 'GirAff',
-    description:
-      'Kanban-like Management App with Drag&Drop features. Tools: TS, React, Redux Toolkit, React Router 6.4, React Hook Form, MUI, React Beautiful DND, i18next, SCSS.',
-    link: 'https://github.com/vasily-mishanin/rss-management-app',
-  },
-  {
     id: 'little_lemon',
     image: './images/little-lemon.png',
     text: 'Little Lemon',
@@ -84,5 +76,13 @@ export const projects: Project[] = [
     description:
       'Fullstack multiuser web application to manage todos: authentication, authorization, CRUD operations. Comprehensive responsive UI/UX with DnD features. Made with Next.js and Redux Toolkit.',
     link: 'https://github.com/vasily-mishanin/todos-next',
+  },
+  {
+    id: 'giraff',
+    image: './images/giraff.png',
+    text: 'GirAff',
+    description:
+      'Kanban-like Management App with Drag&Drop features. Tools: TS, React, Redux Toolkit, React Router 6.4, React Hook Form, MUI, React Beautiful DND, i18next, SCSS.',
+    link: 'https://github.com/vasily-mishanin/rss-management-app',
   },
 ];
