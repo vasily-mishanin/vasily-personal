@@ -46,3 +46,11 @@ const hiddenCertificateElements = document.querySelectorAll(
   '.hidden-certificate'
 );
 hiddenCertificateElements.forEach((el) => observerCertificate.observe(el));
+
+// THEME TOGGLE
+
+const themeToggler = document.getElementById('chk');
+
+themeToggler?.addEventListener('change', () => {
+  document.body.classList.toggle('dark');
+});

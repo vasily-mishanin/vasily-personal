@@ -15,11 +15,22 @@ header.innerHTML = `<section class="header-greeting">
 </section>
 <div class='link-to-bottom'><a href="#footer" data-dictionary='link_to_bottom'>↓ to contacts and resume</a></div>`;
 
-header.innerHTML += `<div class='select'>
+header.innerHTML += `<div class='switchers'>
+
+<div id="theme-switcher" class="theme-switcher">
+<input type="checkbox" class="checkbox" id="chk" />
+<label class="label" for="chk">
+  <i class="icon-moon"></i>
+  <i class="icon-sun"></i>
+  <div class="ball"></div>
+</label>
+</div>
+
 <select class='select__language'  id='languageSelect'>
 <option value='en' selected> EN </option>
 <option value='ru'> RU </option>
 </select>
+
 </div>`;
 
 document.querySelector('#app')!.prepend(header);
