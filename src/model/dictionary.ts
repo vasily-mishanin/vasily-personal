@@ -5,7 +5,7 @@ export const dictionary: Dictionary = {
 
   en: {
     greeting: "Hi! I'm Vasily",
-    specialization: 'FRONTEND DEVELOPER',
+    specialization: 'JAVASCRIPT (Frontend+) DEVELOPER',
     skills: 'SKILLS',
     core: 'CORE',
     tools: 'LIBS, TOOLS',
@@ -39,7 +39,7 @@ export const dictionary: Dictionary = {
 
   ru: {
     greeting: 'Привет! Я Василий',
-    specialization: 'ФРОНТЕНД РАЗРАБОТЧИК',
+    specialization: 'JAVASCRIPT (Фронтенд+) РАЗРАБОТЧИК',
     skills: 'НАВЫКИ',
     core: 'БАЗА',
     tools: 'БИБЛИОТЕКИ, ИНСТРУМЕНТЫ',

@@ -54,7 +54,7 @@ body {
 }
 
 .dark {
-  --color-accent-yellow: #f39f5a;
+  --color-accent-yellow: #f19b55;
   --color-dark-purple: #404258;
 
   background-color: var(--color-main-dark);

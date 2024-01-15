@@ -10,7 +10,7 @@ header.innerHTML = `<section class="header-greeting">
 </div>
 <div class='header__text hidden' >
 <h1 class='header-title' data-dictionary='greeting'>Hi! I'm Vasily</h1>
-<p class='header-subtitle' data-dictionary='specialization'> FRONTEND DEVELOPER </p>
+<p class='header-subtitle' data-dictionary='specialization'> JAVASCRIPT (frontend+) DEVELOPER </p>
 </div>
 </section>
 <div class='link-to-bottom'><a href="#footer" data-dictionary='link_to_bottom'>↓ to contacts and resume</a></div>`;
