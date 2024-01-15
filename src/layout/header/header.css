@@ -43,6 +43,7 @@
 
 .header-subtitle {
   color: var(--color-accent-yellow);
+  font-size: 1.2rem;
 }
 
 .pattern-header {

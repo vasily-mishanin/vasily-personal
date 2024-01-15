@@ -82,6 +82,13 @@ export const skills__spec: Skill[] = [
     description:
       'Webpack is a free and open-source module bundler for JavaScript.',
   },
+  {
+    id: 'docker4y7hgnvq94',
+    text: 'Docker',
+    image: './images/icon-docker.png',
+    description:
+      'Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup, so you can focus on the code.',
+  },
 ];
 
 export const skills__languages: Language[] = [

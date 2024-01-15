@@ -75,4 +75,13 @@ export const certifications: Certification[] = [
     description: 'Testing React with Jest and React Testing Library (RTL)',
     link: 'https://www.udemy.com/certificate/UC-a87334f3-a879-43c2-89b7-1c85c0b83e6b',
   },
+
+  {
+    id: '20240115',
+    image: './images/certificate_aws_developer_rss.png',
+    text: 'AWS Cloud Developer',
+    description:
+      'AWS S3, EC2, API Gateway, CloudFront, Lambda, DynamoDB, RDS, SQS, SNS, Elastic Beanstalk services',
+    link: 'https://app.rs.school/certificate/xgadocop',
+  },
 ];
