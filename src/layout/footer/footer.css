@@ -1,7 +1,10 @@
 .footer {
   position: relative;
   flex-shrink: 0;
-  background-color: var(--color-accent-yellow);
+  background-color: var(--color-main-light);
+
+  border-left: 0.5rem solid;
+  border-left-color: var(--color-accent-yellow);
 }
 
 .footer__copyright {
