@@ -84,4 +84,12 @@ export const certifications: Certification[] = [
       'AWS S3, EC2, API Gateway, CloudFront, Lambda, DynamoDB, RDS, SQS, SNS, Elastic Beanstalk services',
     link: 'https://app.rs.school/certificate/xgadocop',
   },
+  {
+    id: '20240413',
+    image: './images/certificate_node_developer_rss.png',
+    text: 'NODE JS 2024 Q1',
+    description:
+      'Comprehensive course includes Node.js, WebSockets basics, GraphQL basics and final project on Nest.js',
+    link: 'https://app.rs.school/certificate/pq69q2mn',
+  },
 ];
