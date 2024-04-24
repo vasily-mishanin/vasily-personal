@@ -85,11 +85,11 @@ export const certifications: Certification[] = [
     link: 'https://app.rs.school/certificate/xgadocop',
   },
   {
-    id: '20240413',
+    id: '20240415',
     image: './images/certificate_node_developer_rss.png',
     text: 'NODE JS 2024 Q1',
     description:
       'Comprehensive course includes Node.js, WebSockets basics, GraphQL basics and final project on Nest.js',
-    link: 'https://app.rs.school/certificate/pq69q2mn',
+    link: 'https://app.rs.school/certificate/hm5ww9v3',
   },
 ];
