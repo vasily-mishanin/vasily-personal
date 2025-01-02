@@ -89,6 +89,13 @@ export const skills__spec: Skill[] = [
     description:
       'Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup, so you can focus on the code.',
   },
+  {
+    id: 'elasticsearch',
+    text: 'elasticSearch',
+    image: './images/elasticSeach.svg',
+    description:
+      'Elasticsearch is a free, open-source search and analytics engine that combines a scalable data store with search engine capabilities',
+  },
 ];
 
 export const skills__languages: Language[] = [
